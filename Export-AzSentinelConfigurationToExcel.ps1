@@ -2920,7 +2920,7 @@ Function Show-UserInterface() {
     $WorkspaceLabel.ForeColor = [System.Drawing.Color]::Black
 
     $WorkspaceName = New-Object System.Windows.Forms.textbox
-    $WorkspaceName.Text = "microsoftsentinel"
+    $WorkspaceName.Text = ""
     $WorkspaceName.Font = New-Object System.Drawing.Font("Arial", 12, [System.Drawing.FontStyle]::Regular)
     $WorkspaceName.Multiline = $False
     $WorkspaceName.Size = New-Object System.Drawing.Size(250, 400)
@@ -2934,7 +2934,7 @@ Function Show-UserInterface() {
     $ResourceGroupLabel.ForeColor = [System.Drawing.Color]::Black
 
     $ResourceGroupName = New-Object System.Windows.Forms.textbox
-    $ResourceGroupName.Text = "mssentinel"
+    $ResourceGroupName.Text = ""
     $ResourceGroupName.Font = New-Object System.Drawing.Font("Arial", 12, [System.Drawing.FontStyle]::Regular)
     $ResourceGroupName.Multiline = $False
     $ResourceGroupName.Size = New-Object System.Drawing.Size(250, 400)
